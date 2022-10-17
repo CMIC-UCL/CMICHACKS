@@ -236,10 +236,11 @@ input, select, textarea {
   display: block;
 }
 
-.session-title,
-.time-slot {
+.session-title {
   margin: 0;
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: orange;
 }
 
 .session-title a {
@@ -310,6 +311,7 @@ input, select, textarea {
 hr {
   margin: 40px 0;
 }
+
 
 /* Type */
 
