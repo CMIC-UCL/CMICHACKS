@@ -157,12 +157,12 @@
 								    <td><h4><b>Project&nbspF:</b></h4></td><td colspan="2"> <h4><b>GPU-enabled Monte Carlo simulations of flow and diffusion</b></h4></td>
 								  </tr>
 								  <tr>
-								    <td>Leaders:</td> <td>Elizabeth Powell and Leevi Kerkela</td> <td>QIG (CMIC) and GOSH</td>
+								    <td>Leaders:</td> <td>Lizzie Powell and Leevi Kerkela</td> <td>QIG (CMIC) and GOSH</td>
 								  </tr>
 								</table>
 
 						    	</div>
-						    	<img class="rounded mx-auto d-block" src="images/project_a.png" width="800"> 
+						    	<img class="rounded mx-auto d-block" src="images/project_LP.png" width="800"> 
 					    	    <div class="carousel-description"><p align="justify">
 									Background: There are several Monte Carlo simulators for modelling spin diffusion in tissue microstructure and the resulting MR signals; Camino is a popular example, developed here at UCL. However, all current simulation toolboxes ignore a key feature of tissue microstructure - the vasculature! Lizzie has recently been working to address this issue, designing a toolbox that can model both diffusion and flow spin dynamics inside a novel microvascular substrate mesh.  However, this proof-of-concept design has been implemented in Matlab, which is notoriously slow... <br>
 									Aim: To integrate the same flow modelling architecture into disimpy, a massively parallelised, open source, GPU-enabled Python toolbox for diffusion simulations (<a href="https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjoss.theoj.org%2Fpapers%2F10.21105%2Fjoss.02527&data=05%7C01%7Ce-powell%40ucl.ac.uk%7C496fb1e0dfc14d6a4d8208dbd0d050db%7C1faf88fea9984c5b93c9210a11d9a5c2%7C0%7C0%7C638333365362512786%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=aC3COf7yMKcz9JcCCxVctn3ouKTcCE9tCVnNOGgWBZI%3D&reserved=0">paper</a>, <a href="https://github.com/kerkelae/disimpy#id3">github</a>) developed by Leevi. We will use novel microvascular meshes to define the direction of flow, combine flow and diffusive spin dynamics, and enable realistic IVIM-style simulations in reasonable computation times. <br>
@@ -201,7 +201,7 @@
 								</table>
 
 						    	</div>
-						    	<img class="rounded mx-auto d-block" src="images/project_a.png" width="800"> 
+						    	<img class="rounded mx-auto d-block" src="images/project_SS.png" width="800"> 
 					    	    <div class="carousel-description"><p align="justify">
 									Computational models of the diffusion MRI signal can be fitted to the data to estimate the models’ parameter values in the tissue, and we can compare the values in healthy tissue vs disease to improve non-invasive diagnosis. There has been a move towards fitting these models using deep learning, but supervised methods can be significantly biased by the training data. Self-supervised learning has been used successfully to improve estimation with the VERDICT model (three compartment model for prostate), see ssVERDICT <a href="https://arxiv.org/abs/2309.06268">arxiv</a>. Currently, this work is coded up just to fit the VERDICT model. In this project, we would like to expand and adapt the ssVERDICT code base to incorporate a wide range of diffusion MRI compartment models, which can be combined to form complex biophysical models (e.g. NODDI, SANDI and more) as required. If time allows, we will also investigate using different network architectures for the fitting (e.g. VAE, CNN) and make the code flexible to different fitting methods. The end result would be a flexible software package for fitting any diffusion MRI model with self-supervised learning with a variety of network architectures. It would be useful to have experience using Python, PyTorch and GitHub.
 
